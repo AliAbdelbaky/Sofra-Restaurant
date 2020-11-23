@@ -51,7 +51,7 @@ body {
 }
 .navbar .navbar-brand-img {
   margin-left: auto;
-  margin-right: -9%;
+  margin-right: 12%;
 }
 .navbar .navbar-brand-img img {
   width: 30%;
@@ -1180,7 +1180,7 @@ body {
     width: 48%;
   }
   .add-urOpinion .icon-rate i {
-    font-size: 14px;
+    font-size: 10px;
   }
   .add-urOpinion form button {
     font-size: 17px;
@@ -1255,6 +1255,15 @@ body {
   .meals a {
     font-size: 15px;
     padding: 10px 41px;
+  }
+  .meals .card .card-body a {
+    padding: 1px 47px;
+  }
+  .more-food h2 {
+    font-size: 22px;
+  }
+  .store-info h2 {
+    font-size: 26px;
   }
 }
 @media (max-width: 749px) and (min-width: 500px) {
@@ -1374,6 +1383,9 @@ body {
   }
   .header-two .content .con i {
     font-size: 19px;
+  }
+  .meals .card .card-body a {
+    padding: 1px 47px;
   }
 }
 @media (max-width: 998px) and (min-width: 750px) {
